@@ -63,9 +63,6 @@ CRC16 integrity checking.
 
 **Fault Protection**  
 Three-level response inspired by JPL fault management philosophy. 
-Subsystem-level retry → fault protection task disable → hardware 
-watchdog reset. The watchdog task is CRITICAL priority — if it 
-stops running, the MCU resets.
 
 **Flight State Machine**  
 Eight mission states: BOOT → DETUMBLE → SAFE → NOMINAL → 
