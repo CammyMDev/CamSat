@@ -10,9 +10,7 @@ A solo project exploring Embedded Flight Software
 
 ## Overview
 
-CamSat Flight Stack is an end-to-end CubeSat flight software architecture designed to simulate onboard spacecraft operations and ground segment control.
-
-The system models a modular spacecraft with independent subsystems, a central flight executive, and a ground station interface for telemetry, command, and mission operations.
+CamSat is an CubeSat flight software architecture designed to simulate onboard spacecraft operations.
 
 It is intended as an engineering demonstrator for embedded systems, spacecraft software design, and real-time systems development.
 
@@ -34,17 +32,6 @@ Runs on Embedded Linux and simulates spacecraft subsystems:
 * Flight Executive (Mode Manager)
 
 Subsystems operate as independent services communicating via a structured message interface.
-
----
-### Ground Segment
-
-The ground station provides mission control functionality:
-
-* Telecommand interface
-* Real-time telemetry monitoring
-* Subsystem health visualization
-* Mission event logging
-* State and mode tracking
 ---
 ## Core Features
 
